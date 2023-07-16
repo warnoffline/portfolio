@@ -315,7 +315,7 @@ main{
     .icons{
         flex-direction: row;
         width: 100%;
-        justify-content: center;
+        justify-content: space-around;
     }
     .icon{
         margin: 0;
