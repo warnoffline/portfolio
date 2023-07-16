@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.first{
+    min-height: 100vh;
+    width: 100%;
+    background: url('./img/0.png');
+    background-attachment: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icons{
+    width: 15%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.icon{
+    margin: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    transition: 1s;
+}
+.icon:hover{
+    background-color: #04BBEC;
+    transform: scale(1.2);
+    transition: 1s;
+    cursor: pointer;
+}
+.ftxt{
+    font-size: 50px;
+    color: white;
+}
+.frontend{
+    width: 100%;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.frontext{
+    color: #EA25B5;
+  overflow: hidden;
+  border-right: .17em solid #EA25B5;  
+  white-space: nowrap;  
+  margin: 0 auto;  
+  letter-spacing: .17em;
+  animation:  
+  typing 3.5s steps(30, end),
+  blink-caret .7s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #EA25B5; }
+  }
+
+.about{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+.main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 50px;
+    color: white;
+    margin: 20px 0;
+    text-align: center;
+}
+.line{
+    width: 10%;
+    height: 3px;
+    background-color: #04BBEC;
+    border-radius: 20px;
+}
+
+.txtAbout{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.txtAbout img{
+    width: 30%;
+    margin: 20px 0;
+}
+.textMain{
+    color: white;
+    width: 50%;
+    font-size: 30px;
+}
+ul{
+    margin-left: 30px;
+}
+
+main{
+    background-color: black;
+}
+.podrobnee{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.iconsNav{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.iconNav{
+    width: 15%;
+    background-color: white;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 20px;
+    transition: 1s;
+}
+.iconNav img{
+    width: 100%;
+}
+.iconNav:hover{
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+.textPodr{
+    color: white;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+.textPodr p{
+    width: 80%;
+}
+.mainPodr{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color:#EA25B5;
+}
+.PodrLine{
+    width: 7%;
+    height: 15px;
+    background-color: #04BBEC;
+    border-radius: 0 20px 20px 0;
+    margin-right: 10%;
+}
+.MyProjects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.projects{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.project{
+    background-color:#0D1117 ;
+    border: 1px solid #30363D;
+    color: white;
+    border-radius: 20px;
+    width: 20%;
+    padding: 20px;
+    margin: 20px;
+    transition: 1s;
+}
+.project:hover{
+    transform: scale(1.2);
+    transition: 1s;
+    cursor: pointer;
+}
+.p1{
+    font-size: 25px;
+    color: #04BBEC;
+    margin: 10px 0;
+}
+.p2{
+    font-size: 20px;
+    margin: 20px 0;
+}
+.language{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    flex-wrap: wrap;
+}
+.language p{
+    margin: 0 10px;
+}
+.lng{
+    display: flex;
+    align-items: center;
+}
+.circle1{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #41B883;
+}
+.circle2{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #C6538C;
+}
+.circle3{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #F1E05A;
+}
+.circle4{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #E34C26;
+}
+.circle5{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #563D7C;
+}
+.footer{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: end;
+}
+.fst{
+    width: 100%;
+    height: 50%;
+    border-radius: 100px 100px 0 0;
+    background-color: #04BBEC;
+    display: flex;
+    justify-content: center;
+}
+.scnd{
+    width: 50%;
+    height: 100%;
+    border-radius: 100px 0 100px 0;
+    background-color: #007A9B;
+    display: flex;
+    justify-content: center;
+}
+.thrd{
+    width: 10%;
+    height: 100%;
+    border-radius: 100px 0 100px 0;
+    background-color: #012129;
+}
+.change-text span:hover{
+    color: #EA25B5;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.change-text{
+    transition: 0.3s;
+}
+
+.appear-on-scroll {
+    opacity: 0; /* Начальное значение прозрачности (скрыт) */
+    transform: translateY(20px); /* Начальное значение смещения вниз */
+    transition: opacity 1s ease, transform 1s ease; /* Анимация перехода */
+  }
+
+  .appear-on-scroll.appeared {
+    opacity: 1; /* Значение прозрачности при отображении (полностью видимый) */
+    transform: translateY(0); /* Значение смещения вверх (элемент появится на месте) */
+  }
+  a{
+    text-decoration: none;
+  }
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    .txtAbout{
+        flex-direction: column;
+        width: 100%;
+    }
+    .txtAbout img{width: 60%;}
+    .textMain{
+        width: 90%;
+    }
+    .project{
+        width: 30%;
+    }
+}
+@media screen and (max-width: 599px) {
+    .first{
+        flex-direction: column;
+        justify-content: start;
+    }
+    .icons{
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+    }
+    .icon{
+        margin: 0;
+        width: 25px;
+        height: 25px;
+    }
+    .icon img{
+        width: 120%;
+        
+    }
+    .ftxt{
+        font-size: 30px;
+        margin-top: 50%;
+    }
+    .frontend{
+        font-size: 20px;
+    }
+    .main{
+        font-size: 30px;
+    }
+    .txtAbout{
+        flex-direction: column;
+        width: 100%;
+    }
+    .txtAbout img{
+        width: 60%;
+    }
+    .textMain{
+        width: 90%;
+        font-size: 25px;
+    }
+    .iconsNav{
+        width: 95%;
+    }
+    .iconNav{
+        width: 20%;
+    }
+    .textPodr{
+        font-size: 25px;
+    }
+    .project{
+        width: 70%;
+    }
+    .footer{
+        height: 10vh;
+    }
+}
