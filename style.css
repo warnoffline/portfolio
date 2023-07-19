@@ -285,23 +285,31 @@ main{
     justify-content: space-around;
     margin: 10px 0;
 }
-.buttonproj a{
+
+.fstButton{
     color: white;
     width: 50%;
     text-align: center;
     font-size: 20px;
     background-color:#007A9B;
     padding: 10px;
-}
-.fstButton{
     border-radius: 20px 0 0 20px;
     border-right: 1px solid black;
 }
 .scndButton{
+    color: white;
+    width: 50%;
+    text-align: center;
+    font-size: 20px;
+    background-color:#007A9B;
+    padding: 10px;
     border-radius: 0 20px 20px 0;
     border-left: 1px solid black;
 }
-.buttonproj a:hover{
+.fstButton:hover{
+    background-color:#30363D;
+}
+.scndButton:hover{
     background-color:#30363D;
 }
 .appear-on-scroll {
