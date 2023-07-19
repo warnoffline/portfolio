@@ -293,11 +293,11 @@ main{
     background-color:#007A9B;
     padding: 10px;
 }
-.buttonproj a:nth-child(1){
+.fstButton{
     border-radius: 20px 0 0 20px;
     border-right: 1px solid black;
 }
-.buttonproj a:nth-child(2){
+.scndButton{
     border-radius: 0 20px 20px 0;
     border-left: 1px solid black;
 }
